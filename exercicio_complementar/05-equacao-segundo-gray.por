@@ -2,27 +2,26 @@ programa {
     
 	funcao inicio() {
 	    
-       inteiro a,b,c
+       logico pergunta1 = falso
+       logico pergunta2 = verdadeiro 
+       logico pergunta3 = verdadeiro
+       
+       logico resposta1,resposta2,resposta3
+       
+        escreva("Responda as questões com verdairo ou false:")
     
-        escreva("Valor de a:")
-        leia(a)
+        escreva("O Brasil é o país mais populoso do mundo?")
+        leia(resposta1)
           
-        escreva("Valor de b:")
-        leia(b)
+        escreva("2+2*2 = 6?")
+        leia(resposta2)
         
-        escreva("Valor de c:")
-        leia(c)
-        
-        inteiro delta = b^2 - 4*a*c
-        
-        
-        real valorX1 = (-b + delta^(1/2))/2*a
-        real valorX2 = (-b - delta^(1/2))/2*a
+        escreva("Programar é divertido.")
+        leia(resposta3)
         
        
-        escreva("Delta ",delta)
-        escreva("As raízes da equação  x1 ",valorX1)
-        escreva("As raízes da equação  x2 ",valorX2)
+       escreva("Gabarito:", pergunta1, ", ", pergunta2, ", ", pergunta3, "/n")
+       escreva("Suas respostas:", resposta1, ", ", resposta2, ", ", resposta3)
        
 	}
 }
