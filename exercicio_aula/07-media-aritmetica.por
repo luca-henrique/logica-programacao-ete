@@ -1,10 +1,19 @@
 programa {
 	funcao inicio() {
-		real valor1 = 10.0
-		real valor2= 8.0
-		
-		real calculo = (valor1+valor2)/2
-	    
-		escreva(calculo)
+	real valorBarraDeChocolate
+	inteiro qtdBarraDeChocolatee 
+	
+	
+	escreva("Informe o falor da barra de chocolate: ")
+	leia(valorBarraDeChocolate)
+	
+	escreva("Informe quantas barras de chocolate você ira querer: ")
+	leia(qtdBarraDeChocolatee)
+
+    real calcularValorTotal = valorBarraDeChocolate * qtdBarraDeChocolatee
+    
+    escreva("Valor da unidade:",valorBarraDeChocolate, ", valor total: ", calcularValorTotal)
+
+
 	}
 }
